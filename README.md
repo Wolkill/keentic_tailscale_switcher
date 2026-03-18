@@ -1,6 +1,6 @@
 # TailscaleSwitch
 
-Минималистичное Android-приложение: две кнопки для включения/выключения Tailscale на роутере Keenetic через SSH.
+Минималистичное Android-приложение: две кнопки для включения/выключения Tailscale в entware на роутере Keenetic через SSH.
 
 ## Что делает
 
@@ -38,11 +38,11 @@ gradlew.bat assembleDebug
 
 APK: `app/build/outputs/apk/debug/app-debug.apk`
 
-Перекинь на телефон (через ADB или просто файлом), разреши установку из неизвестных источников.
+Скопировать на телефон (через ADB или просто файлом), разрешить установку из неизвестных источников.
 
 ---
 
-## Как установить через ADB (если телефон подключён к компу)
+## Как установить через ADB 
 
 ```bash
 adb install app/build/outputs/apk/debug/app-debug.apk
