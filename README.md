@@ -56,7 +56,7 @@ adb install app/build/outputs/apk/debug/app-debug.apk
 
 ```kotlin
 private val SSH_HOST = "192.168.1.1"
-private val SSH_PORT = 22
+private val SSH_PORT = 222
 private val SSH_USER = "root"
 private val SSH_PASS = "keenetic"
 ```
